@@ -1,6 +1,6 @@
 from crewai import Agent
 from crewai_tools import SerperDevTool, ScrapeWebsiteTool
-from config import LLM
+from .config import LLM
 
 search_tool = SerperDevTool()
 scrape_tool = ScrapeWebsiteTool()

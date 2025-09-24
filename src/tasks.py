@@ -1,5 +1,5 @@
 from crewai import Task
-from agents import data_analyst_agent, trading_strategy_agent, execution_agent, risk_management_agent
+from .agents import data_analyst_agent, trading_strategy_agent, execution_agent, risk_management_agent
 
 data_analysis_task = Task(
     description="Continuously monitor and analyze market data for the selected stock ({stock_selection}). Use statistical modeling and machine learning to identify trends and predict market movements.",
