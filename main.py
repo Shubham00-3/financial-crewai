@@ -1,7 +1,7 @@
 from src.crew import financial_trading_crew
 
 financial_trading_inputs = {
-    'stock_selection': 'Wipro',
+    'stock_selection': 'Tesla',
     'initial_capital': '10000',
     'risk_tolerance': 'Medium',
     'trading_strategy_preference': 'Day Trading',
